@@ -1,3 +1,9 @@
+// Add console.log to see when this is being evaluated
+// console.log('Env variables during initialization:', {
+//   dataset: process.env.NEXT_PUBLIC_SANITY_DATASET,
+//   projectId: process.env.NEXT_PUBLIC_SANITY_PROJECT_ID
+// })
+
 export const apiVersion =
   process.env.NEXT_PUBLIC_SANITY_API_VERSION || '2025-01-03'
 

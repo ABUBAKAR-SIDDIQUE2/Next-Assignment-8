@@ -17,8 +17,8 @@ async function GetData(slug: string) {
     const query = `
       *[_type == "blog" && slug.current == '${slug}'] {
           "currentSlug": slug.current,
-            title,
-            content,
+            title,content
+            ,
             titleImage
         }[0]`;
   
